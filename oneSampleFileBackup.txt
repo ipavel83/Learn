@@ -1,0 +1,4 @@
+It is the sample file.
+It has multiple lines.
+it even has a different characters /n \n and " " and ' ' and $ and {}
+More over you can add something to it!
