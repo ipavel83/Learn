@@ -28,6 +28,12 @@ formater = '{} {} and {}'
 print(formater.format(1,2,'3m',4,'empty text')) #format more elements is OK - #output: 1 2 and 3m
 
 print()
+i = 10
+s = '10'
+print(f'fstring with repr inside for int - {i!r}, for string - {s!r}')  #https://www.python.org/dev/peps/pep-0498/#abstract
+
+
+print()
 print('NOW WE SLICE:')
 strOnlyLetters = "This is only letters"
 #slicing syntax [START:STOP:STEP]

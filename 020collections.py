@@ -29,13 +29,13 @@ print('named tuple name one way:    ', type(some1).__name__)
 print('named tuple name other way:  ', some1.__class__.__name__) #but don't access the __class__ attribute directly, it's bad practice.
 #print(dir(some1))
 print(some1, 'Has length of', len(some1), 
-		' and get it first element by 3 different ways: ', 
-		some1[0], some1.first, getattr(some1, 'first'))
-		
+        ' and get it first element by 3 different ways: ', 
+        some1[0], some1.first, getattr(some1, 'first'))
+        
 some2 = namedTup(first = 'q',second = 'w', third = 'e', fourth = 'r')
 print(some2, 'Has length of', len(some2), 
-		' and get it first element by 3 different ways: ', 
-		some2[0], some2.first, getattr(some2, 'first')) 
+        ' and get it first element by 3 different ways: ', 
+        some2[0], some2.first, getattr(some2, 'first')) 
 
 from sys import getsizeof
 print(getsizeof(tuple1), getsizeof(some1), getsizeof(some2))

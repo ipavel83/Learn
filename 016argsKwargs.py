@@ -3,11 +3,11 @@
 import inspect
 
 def printArgs(one, two=2, *args, **kwargs):
-	print(f'\nprint {inspect.currentframe().f_code.co_name}:')
-	print(one)
-	print(two)
-	print(args)
-	print(kwargs)
+    print(f'\nprint {inspect.currentframe().f_code.co_name}:')
+    print(one)
+    print(two)
+    print(args)
+    print(kwargs)
 
 #printArgs() #TypeError: printArgs() missing 1 required positional argument: 'one'
 #printArgs(,) #TypeError: printArgs() missing 1 required positional argument: 'one'
